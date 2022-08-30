@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 600px;
+    background: #191949; 
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Montserrat', Courier, monospace;
+    color: blanchedalmond;
+}
+
+form h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+form h4{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.campos{
+    width: 100%;
+    display: block;
+    padding: 3px;
+    margin: 5px;
+    margin-right: none;
+
+}
+
+#ingreso{
+    padding: none;
+    margin-bottom: 20px;
+}
+
+#solicita{
+    margin-bottom: 20px;
+}
+
+p textarea {
+    width: 100%;
+}
+
+.boton {
+    width: 60px;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-bottom: none;
+}
+

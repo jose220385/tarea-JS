@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estiloformulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="transporte">
+        <h3>Ejercicio 2: Numero mayor del Array</h3>
+        <div id="ingreso">
+            <h4>Cantidad de numeros</h4>
+            <input class="campos" id="cantidad" type="text" placeholder="Ingrese la cantidad de numeros que desea guardar" />
+            <h4>Numeros:</h4>
+            <input class="campos" id="numeros" type="text" placeholder="Ingrese cada numero"/>
+        </div>
+        
+        <p>
+            <h4> El numero mayor del arreglo es: </h4>
+        </p>
+        <p>   
+            <input class="campos" id="mayor"></input>
+        </p>
+        <div class="contenedorBotones">
+            <input class="boton" id="guardaCantidad" type="button" value="Guardar Cantidad" onclick="capturaNumero()">
+            <input class="boton" id="guardaNumero" type="button" value="Guardar Numero" onclick="cargoNumeros()">
+            <input class="boton" id="numMayor" type="button" value="Numero Mayor" onclick="esMayor()">
+            <input class="boton"  type="reset" value="Borrar" onclick="location.reload()">
+        </div>
+        <script src="tarea.js"></script>
+    </form>
+</body>
+</html>

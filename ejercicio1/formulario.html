@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estiloformulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="transporte">
+        <h3>En que medio de transporte deberias Viajar</h3>
+        <div id="ingreso">
+            <h4>Distancia:</h4>
+            <input class="campos" id="distancia" type="text" name="nombre" placeholder="Ingrese distancia en metros" />
+            <h4>Medio de Transporte:</h4>
+            <input class="campos" id="resultado" type="text" name="medio"/>
+        </div>
+        
+        <p>
+            <label for="Motivo"> Sugerencias: </label>
+        </p>
+        <p>   
+            <textarea name="motivo" id="sugerencia" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input class="boton" id="aceptar" type="button" value="Aceptar" onclick="capturaNumero()">
+            <input class="boton"  type="reset" value="Borrar">
+        </p>
+        <script src="tarea.js"></script>
+    </form>
+</body>
+</html>
